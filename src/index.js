@@ -4,7 +4,7 @@ import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider } from "react-router-dom";
 import router from "./routes";
-import ReactGA from "react-ga4";
+import ReactGA from "react-ga";
 
 ReactGA.initialize("G-CNN2NPH53B");
 
