@@ -1,0 +1,33 @@
+.events-page-container {
+  display: flex;
+  width: 100vw;
+  height: 92vh;
+}
+
+.left-container {
+  width: 30%;
+  height: 100%;
+  background-image: url("../../assets/images/grid-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right-container {
+  background-image: url("../../assets/images/events-page-bg-desktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .left-container {
+    display: none;
+  }
+  .right-container {
+    background-image: url("../../assets/images/events-page-bg-mobile.png");
+    background-size: cover;
+    width: 100%;
+  }
+}
