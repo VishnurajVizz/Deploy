@@ -1,6 +1,6 @@
 import { React, useEffect } from "react";
 import "./styles.scss";
-import { ReactGA } from "react-ga4";
+import ReactGA from "react-ga4";
 import { usePageView } from "../../customHooks/usePageView";
 
 export default function HomePage() {
